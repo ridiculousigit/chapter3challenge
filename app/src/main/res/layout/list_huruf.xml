@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="30dp"
+    app:cardBackgroundColor="@color/white">
+
+    <Button
+        android:id="@+id/btnHuruf"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="A"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:backgroundTint="@color/orenji" />
+
+</androidx.cardview.widget.CardView>
